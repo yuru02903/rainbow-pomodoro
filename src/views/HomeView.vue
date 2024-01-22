@@ -107,3 +107,57 @@ const currentTime = computed(() => {
   return m + ':' + s
 })
 </script>
+
+<style>
+.red {
+  color: rgb(180, 40, 40);
+}
+
+.red-b {
+  background: rgb(245, 238, 235);
+}
+
+.orange {
+  color: rgb(200, 100, 45);
+}
+.orange-b {
+  background: rgb(248, 243, 232);
+}
+
+.yellow {
+  color: rgb(210, 200, 40);
+}
+.yellow-b {
+  background:rgb(248, 251, 233);
+}
+
+.green {
+  color: rgb(0, 145, 0);
+}
+.green-b {
+  background: rgb(239, 248, 239);
+}
+
+.blue {
+  color: rgb(2, 161, 209)
+}
+
+.blue-b {
+  background: rgb(232, 240, 247)
+}
+
+.navy {
+  color: rgb(5, 5, 161)
+}
+.navy-b {
+  background: rgb(236, 238, 248)
+}
+
+.purple {
+  color: purple
+}
+.purple-b {
+  background: rgb(251, 244, 251)
+}
+
+</style>
